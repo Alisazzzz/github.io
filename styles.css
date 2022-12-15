@@ -1,0 +1,253 @@
+
+body { font-size: 18px;
+	   font-family: Georgia;
+	   position: static;
+	   z-index: 0;
+	 }
+	 
+header .logo {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 50px 70px;
+}
+
+header .logo img {
+	height: 14vh;
+}
+
+header .logo .logo_text p{
+	font-size: 22px;
+	font-family: Georgia !important;
+	padding: 0px 0px 0px 10px;
+}
+
+header .logo .logo_text p {
+	margin: 3px !important;
+}
+
+.description {
+	display: flex;
+	flex-direction: row;
+	margin: 0px 0px 0px 16vw;
+}
+
+.description div {
+	max-width: 30vw;
+	margin: 0px 5vw 0px 0px;
+	font-size: 18px;
+	font-family: Segoe UI;
+}
+
+.title { font-weight: bold;
+		 font-size: 45px;
+		 font-family: Segoe UI; 
+		 padding: 10px 5vw 0px 10vw; }	 
+.bottom { display: flex;
+		  flex-direction: row;
+		  justify-content: space-around; 
+		  margin: 0px 0px 10vh 0px;
+		  padding: 0px 20vw; }
+.bottom a { text-decoration: none;
+		    color: black;
+			font-family: Segoe UI;
+			padding: 10px;
+			border: 1px solid black;
+			border-radius: 15px;}	
+.bottom a:hover { transform: translateY(-2px); }	
+		
+img { max-width: 40vw;
+	  max-height: 70vh; 
+	  object-fit: cover;}
+.pictures img { max-height: 50vh;
+				margin: 10px 25px 0px 0px;
+			  }
+			  
+
+.item { margin: 15vh 10vw; }
+.item_description { display: flex;
+		flex-direction: row;		
+		align-items: center;
+		margin: 20px 0px;
+	  }
+.info p { padding: 3px;
+		  margin: 0px;
+		}	  
+
+.info { align-self: flex-end; 
+		padding: 35px;
+	  }	  
+/* ----- */	  
+.sagrario_metropolitano .info { margin: 0px 0px 30px 60px; }
+.sagrario_metropolitano .pictures { display: flex;
+									flex-direction: row;
+									justify-content: flex-end; }
+
+/* ----- */
+.santa_prisca_and_san_sebastian .info { margin: 0px 60px 30px 0px;}
+.santa_prisca_and_san_sebastian .item_description { justify-content: flex-end;}
+.santa_prisca_and_san_sebastian .item_description img { margin: 0px 25px 0px 0px; }
+.santa_prisca_and_san_sebastian .third_row { display: flex;
+										     flex-direction: column;
+										     align-items: center;
+										     margin: 30px 0px 0px 20vw;
+										   }  
+
+/* ----- */
+.san_francisco_javier .item_description { justify-content: center; }										   
+.san_francisco_javier .info { margin: 0px 0px 30px 60px; }
+
+/* ----- */
+.santa_maria_tonantzintla .item_description { justify-content: center; }										   
+.santa_maria_tonantzintla .info { margin: 0px 0px 30px 60px; }	
+.santa_maria_tonantzintla .pictures { display: flex;
+									flex-direction: row;
+									justify-content: flex-end; }
+.santa_maria_tonantzintla .third_row { display: flex;
+									   flex-direction: column;
+									   align-items: center;
+									   margin: 30px 0px 0px 0vw;
+									 } 
+.santa_maria_tonantzintla .third_row div {	display: flex;
+										    flex-direction: row;
+											justify-content: center;											
+										 }
+.santa_maria_tonantzintla .third_row p { align-self: flex-start; 
+										 margin: 25px 0px 0px 10vw;} 
+.santa_maria_tonantzintla .third_row div img { max-height: 50vh;
+											   margin: 0px 25px 0px 0px;
+											 }	
+	
+/* ----- */	
+.santa_maria_de_octolane .info { margin: 0px 0px 30px 60px; }
+.santa_maria_de_octolane .pictures { display: flex;
+									flex-direction: row;
+									justify-content: flex-end; }
+
+/* ----- */	
+.san_francisco_acatepec .info { margin: 0px 60px 30px 0px;}
+.san_francisco_acatepec .item_description { justify-content: center;}
+.san_francisco_acatepec .third_row { display: flex;
+										     flex-direction: column;
+										     align-items: center;
+										     margin: 30px 0px 0px 20vw;
+										   } 
+.san_francisco_acatepec .pictures { display: flex;
+									flex-direction: row;
+									justify-content: flex-end; }									   
+.san_francisco_acatepec .third_row { display: flex;
+									   flex-direction: column;
+									   align-items: center;
+									   margin: 30px 10vw 0px 0vw;
+									 } 
+.san_francisco_acatepec .third_row p { align-self: flex-start; 
+									   margin: 25px 0px 0px 10vw;} 
+.san_francisco_acatepec .third_row div img { max-height: 50vh;
+											   margin: 0px 25px 0px 0px;
+											}
+											
+/* ----- */	
+.casa_de_alfenike .info { margin: 0px 0px 30px 60px; }			
+.casa_de_alfenike .pictures { display: flex;
+									flex-direction: row;
+									justify-content: center; }	
+									
+/* ----- */	
+.de_nuestra_senora_la_soledad .info { margin: 0px 0px 30px 60px; }
+.de_nuestra_senora_la_soledad .pictures { display: flex;
+									flex-direction: row;
+									justify-content: flex-end; }	
+/* ----- */
+.santo_domingo_de_guzman .info { margin: 0px 60px 30px 0px;}
+.santo_domingo_de_guzman .item_description { justify-content: flex-end;}
+.santo_domingo_de_guzman .item_description img { margin: 0px 25px 0px 0px; }
+
+/* ----- */
+.basilica_of_zacatecas .item_description { justify-content: flex-start;
+										   margin: 0px 10vw;}										   
+.basilica_of_zacatecas .info { margin: 0px 0px 30px 60px; }	
+.basilica_of_zacatecas .pictures { display: flex;
+								   flex-direction: row;
+								   justify-content: flex-end; }		
+.basilica_of_zacatecas .pictures img { margin: 25px 25px 0px 0px; }	
+
+/* ----- */
+.arequipa_la_compania .info { margin: 0px 0px 30px 60px; }
+.arequipa_la_compania .pictures { display: flex;
+								  flex-direction: row;
+								  justify-content: center; }
+.arequipa_la_compania .third_row { display: flex;
+								   flex-direction: row;
+								   justify-content: flex-start;
+								   margin: 30px 10vw 0px 0vw;
+								 }
+.arequipa_la_compania .third_row img { max-height: 50vh;
+											 margin: 0px 25px 0px 0px;
+											}	
+
+/* ----- */
+.casa_del_moral .info { margin: 0px 60px 30px 0px;}
+.casa_del_moral .item_description { justify-content: center;}
+.casa_del_moral .item_description img { margin: 0px 25px 0px 0px; }	
+.casa_del_moral .pictures { display: flex;
+							flex-direction: row;
+							justify-content: center;
+							padding: 0px 20vw 0px 0px; }
+
+/* ----- */
+.san-agustin_arequipa .info { margin: 0px 0px 30px 60px; }	
+.san-agustin_arequipa .pictures { display: flex;
+								  flex-direction: row;
+								  justify-content: center; }
+
+/* ----- */	
+.la_compania_cuzco .info { margin: 0px 0px 30px 60px; }
+.la_compania_cuzco .pictures { display: flex;
+							   flex-direction: row;
+							   justify-content: flex-end; }
+
+/* ----- */	
+.cathedral_cuzco .info { margin: 0px 60px 30px 0px;}
+.cathedral_cuzco .item_description { justify-content: flex-end;}
+.cathedral_cuzco .item_description img { margin: 0px 50px 0px 0px; }
+.cathedral_cuzco .pictures { display: flex;
+							   flex-direction: row;
+							   justify-content: flex-start; }									
+	
+/* ----- */	
+.basilica_of_la_merced  .info { margin: 0px 0px 30px 60px;}
+.basilica_of_la_merced  .item_description { justify-content: center;}
+.basilica_of_la_merced  .pictures { display: flex;
+							   flex-direction: row;
+							   justify-content: flex-start; }
+.basilica_of_la_merced  .pictures img { max-height: 45vh; }
+ 
+/* ----- */	
+.san_augustin_lima .info { margin: 0px 0px 30px 60px; }
+.san_augustin_lima .pictures { display: flex;
+							   flex-direction: row;
+							   justify-content: center; 
+							   padding: 0px 0px 0px 17vw; }
+							   
+/* ----- */	
+.palace_torre_taglie .info { margin: 0px 60px 30px 0px;}
+.palace_torre_taglie .item_description { justify-content: flex-end;}
+.palace_torre_taglie .item_description img { margin: 0px 25px 0px 0px; }
+.palace_torre_taglie .pictures { display: flex;
+								 flex-direction: row;
+							     justify-content: flex-start; 
+							     padding: 0px 0px 0px 4vw; }
+.palace_torre_taglie .third_row { display: flex;
+								  flex-direction: column;
+								  align-items: center;
+								  margin: 30px 16vw 0px 0vw;
+								}								 
+.palace_torre_taglie .third_row p { align-self: center; 
+									margin: 25px 0px 0px 10vw;} 
+.palace_torre_taglie .third_row img { max-height: 50vh; }
+
+/* ----- */	
+.san-francisco_lima .info { margin: 0px 0px 30px 60px; }
+.san-francisco_lima .pictures { display: flex;
+							   flex-direction: row;
+							   justify-content: center; }								 

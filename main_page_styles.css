@@ -1,0 +1,200 @@
+
+body {
+	margin: 0px;
+}
+
+article {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	height: 100%;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	border: 1px solid black;
+	border-radius: 15px;
+	background-color: white;
+	font-size: 20px;
+	font-family: Segoe UI;
+	padding: 10px 30px 12px 30px;
+	margin: 40px;
+}
+
+a:hover {
+	transform: translateY(-2px);
+}
+
+.vertical {
+	width: 8vw;
+	height: 100vh;
+	position: fixed;
+	z-index: 1;
+	margin: 0px;
+}
+
+.vertical.right {
+	border-left: 2px solid black;
+	border-right: 0px;
+}
+.vertical.left {
+	border-right: 2px solid black;
+	border-left: 0px;
+}
+
+.vertical p {
+	transform: rotate(-90deg);
+	font-size: 50px;
+	font-family: 'Noto Sans Display', sans-serif;
+	font-weight: 900;
+	margin: 80vh 20px 0px 0px;
+}
+
+.content {
+	position: relative;
+	max-width: 60vw;
+	z-index: 0;
+}
+
+.content p {
+	font-size: 20px;
+	font-family: Segoe UI;
+}
+
+.content h1 {
+	font-size: 50px;
+	font-family: Georgia;
+	font-weight: normal;
+}
+
+/* main */
+.main.content .logo {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 50px 100px;
+}
+
+.main.content .logo img {
+	height: 24vh;
+}
+
+.main.content .logo .logo_text p{
+	font-size: 40px;
+	font-family: Georgia !important;
+	padding: 0px 0px 0px 30px;
+}
+
+.main.content .logo .logo_text p {
+	margin: 5px !important;
+}
+
+.main.content p {
+	padding: 6vh 0vw 0vh 20vw;
+	font-size: 24px;
+}
+
+
+/* expo */
+.expo.content {
+	margin: 0px 0px 0px 16vw;
+}
+
+.expo.content p {
+	max-width: 40vw;
+	margin: 0px 0px 100px 140px;
+	font-size: 22px;
+}
+.expo.content img {
+	margin: 0px 0px 0px 100px;
+}
+
+.expo.content .paragraph {
+	position: relative;
+	z-index: 2;
+	max-width: 30vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0px;
+	padding: 0px;	
+}
+
+.expo.content .paragraph p:first-child{
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 30px;
+	margin: 0px 0px 30px -100px;
+}
+
+.expo.content .paragraph p {
+	font-size: 20px;
+	margin: 0px;
+	max-width: 20vw;
+}
+
+.expo.content .mexico {
+	top: -20vh;
+	left: -2vw;
+}
+.expo.content .peru {
+	top: -45vh;
+	left: 26vw;
+}
+
+/* excursions */
+.excursions.content {
+	margin: 0px 0px 0px 28vw;
+}
+
+.excursions.content .excursion {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 0px 0px 0px -70px;
+}
+
+.excursions.content .excursion p:first-child {
+	font-size: 24px;
+	margin: 0px;
+	max-width: 40vw;
+}
+.excursions.content .excursion p:last-child {
+	margin: 6px 0px 0px 20px;	
+	max-width: 40vw;
+}
+
+.excursions.content .excursion a {
+	margin: 0px 0px 20px 0px;
+}
+
+
+/* mexico main */
+header .logo {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 50px 70px;
+}
+
+header .logo img {
+	height: 14vh;
+}
+
+header .logo .logo_text p{
+	font-size: 22px;
+	font-family: Georgia !important;
+	padding: 0px 0px 0px 10px;
+}
+
+header .logo .logo_text p {
+	margin: 3px !important;
+}
+
+
+
+
+
