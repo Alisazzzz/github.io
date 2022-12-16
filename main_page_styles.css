@@ -28,13 +28,30 @@ a:hover {
 	transform: translateY(-2px);
 }
 
+.menu {
+		position: fixed;
+		width: 30vw;
+		height: 100vh;
+		right: 0px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		padding: 5vh 7vw;
+}
+.menu p {
+	font-size: 50px;
+	font-family: 'Noto Sans Display', sans-serif;
+	font-weight: 900;
+}
+
 .vertical {
-	width: 8vw;
+	width: 40vw;
 	height: 100vh;
 	position: fixed;
 	z-index: 1;
 	margin: 0px;
 }
+
 
 .vertical.right {
 	border-left: 2px solid black;
@@ -44,9 +61,12 @@ a:hover {
 	border-right: 2px solid black;
 	border-left: 0px;
 }
+.vertical.hidden {
+	display: none;
+}
 
 .vertical p {
-	transform: rotate(-90deg);
+	transform: rotate(-90deg); */
 	font-size: 50px;
 	font-family: 'Noto Sans Display', sans-serif;
 	font-weight: 900;
@@ -100,7 +120,7 @@ a:hover {
 
 /* expo */
 .expo.content {
-	margin: 0px 0px 0px 16vw;
+	margin: 0px 0px 0px 10vw;
 }
 
 .expo.content p {
@@ -147,7 +167,7 @@ a:hover {
 
 /* excursions */
 .excursions.content {
-	margin: 0px 0px 0px 28vw;
+	margin: 0px 0px 0px 15vw;
 }
 
 .excursions.content .excursion {
