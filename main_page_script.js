@@ -1,6 +1,9 @@
 $(document).ready( function() {
 	
-	//$(".vertical.main").addClass("hidden");
+	$(".vertical.main").addClass("hidden");
+	$(".vertical.expo").addClass("hidden");
+	$(".vertical.excursions").addClass("hidden");
+	$(".vertical.souvenirs").addClass("hidden");
 	//$(".vertical.expo.right").css("right", "16vw");
 	//$(".vertical.excursions.right").css("right", "8vw");
 	//$(".vertical.souvenirs").css("right", "0vw");
